@@ -1,6 +1,5 @@
 export function fetchAllProducts() {
   return new Promise(async (resolve) => {
-    // const response = await fetch("https://fakestoreapi.com/products/");
     // TODO: we will not hard code url
     const response = await fetch("http://localhost:3002/products");
     const data = await response.json();
@@ -41,3 +40,25 @@ export function fetchProductsByFilters(filter, sort, pagination) {
     resolve({ data });
   });
 }
+
+export function fetchCategories() {
+  return new Promise(async (resolve) => {
+    // TODO: we will not hard code url
+    const response = await fetch("http://localhost:3002/category");
+    const data = await response.json();
+    // console.log(data);
+    resolve({ data });
+  });
+}
+
+export function fetchBrands() {
+  return new Promise(async (resolve) => {
+    // TODO: we will not hard code url
+    const response = await fetch("http://localhost:3002/brands");
+    const data = await response.json();
+    console.log(data);
+    resolve({ data });
+  });
+}
+
+// fetchBrands();

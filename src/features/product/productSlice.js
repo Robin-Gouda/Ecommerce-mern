@@ -1,8 +1,15 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { fetchAllProducts, fetchProductsByFilters } from "./productAPI";
+import {
+  fetchAllProducts,
+  fetchProductsByFilters,
+  fetchBrands,
+  fetchCategories,
+} from "./productAPI";
 
 const initialState = {
   products: [],
+  brands: [],
+  categories: [],
   loading: false,
   error: null,
   status: "idle",
@@ -22,6 +29,24 @@ export const fetchProductsByFiltersAsync = createAsyncThunk(
   "product/fetchProductsByFilters",
   async ({ filter, sort, pagination }) => {
     const response = await fetchProductsByFilters(filter, sort, pagination);
+    // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
+
+export const fetchBrandsAsync = createAsyncThunk(
+  "product/fetchBrands",
+  async () => {
+    const response = await fetchBrands();
+    // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
+
+export const fetchCategoriesAsync = createAsyncThunk(
+  "product/fetchCategories",
+  async () => {
+    const response = await fetchCategories();
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
@@ -60,6 +85,24 @@ export const productSlice = createSlice({
         // state.products = action.payload.data/products;
         //state.products = action.payload.data/totalItems; header not provideing
         // console.log(action.payload);
+      })
+      .addCase(fetchBrandsAsync.pending, (state) => {
+        state.status = "loading";
+        // state.loading = true;
+      })
+      .addCase(fetchBrandsAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.brands = action.payload;
+        // state.loading = false;
+      })
+      .addCase(fetchCategoriesAsync.pending, (state) => {
+        state.status = "loading";
+        // state.loading = true;
+      })
+      .addCase(fetchCategoriesAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.categories = action.payload;
+        // state.loading = false;
       });
   },
 });
@@ -67,5 +110,8 @@ export const productSlice = createSlice({
 // export const { increment } = counterSlice.actions;
 
 export const selectAllProducts = (state) => state.product.products;
+export const selectBrands = (state) => state.product.brands;
+export const selectCategories = (state) => state.product.categories;
+// export const selectTotalItems = (state) => state.product.totalItems;
 
 export default productSlice.reducer;
