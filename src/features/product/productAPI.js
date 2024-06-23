@@ -7,6 +7,15 @@ export function fetchAllProducts() {
   });
 }
 
+export function fetchProductById(id) {
+  return new Promise(async (resolve) => {
+    // TODO: we will not hard code url
+    const response = await fetch("http://localhost:3002/products/" + id);
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
 export function fetchProductsByFilters(filter, sort, pagination) {
   // filter = {"category":["lipstick","fish",...]}
   //sort = {_sort:"price" }
