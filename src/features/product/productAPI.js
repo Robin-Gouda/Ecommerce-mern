@@ -65,7 +65,7 @@ export function fetchBrands() {
     // TODO: we will not hard code url
     const response = await fetch("http://localhost:3002/brands");
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     resolve({ data });
   });
 }
