@@ -19,8 +19,6 @@ const Signup = () => {
   } = useForm();
 
   const user = useSelector(selectLoggedInUser);
-  // useSelector((state) => console.log(state.auth));
-  // console.log(user);
 
   console.log(errors);
 
