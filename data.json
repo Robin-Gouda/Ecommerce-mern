@@ -9,10 +9,7 @@
       "discountPercentage": 7.17,
       "rating": 4.94,
       "stock": 5,
-      "tags": [
-        "beauty",
-        "mascara"
-      ],
+      "tags": ["beauty", "mascara"],
       "brand": "Essence",
       "sku": "RCH45Q1A",
       "weight": 2,
@@ -69,10 +66,7 @@
       "discountPercentage": 5.5,
       "rating": 3.28,
       "stock": 44,
-      "tags": [
-        "beauty",
-        "eyeshadow"
-      ],
+      "tags": ["beauty", "eyeshadow"],
       "brand": "Glamour Beauty",
       "sku": "MVCFH27F",
       "weight": 3,
@@ -129,10 +123,7 @@
       "discountPercentage": 18.14,
       "rating": 3.82,
       "stock": 59,
-      "tags": [
-        "beauty",
-        "face powder"
-      ],
+      "tags": ["beauty", "face powder"],
       "brand": "Velvet Touch",
       "sku": "9EN8WLT2",
       "weight": 8,
@@ -189,10 +180,7 @@
       "discountPercentage": 19.03,
       "rating": 2.51,
       "stock": 68,
-      "tags": [
-        "beauty",
-        "lipstick"
-      ],
+      "tags": ["beauty", "lipstick"],
       "brand": "Chic Cosmetics",
       "sku": "O5IF1NTA",
       "weight": 5,
@@ -249,10 +237,7 @@
       "discountPercentage": 2.46,
       "rating": 3.91,
       "stock": 71,
-      "tags": [
-        "beauty",
-        "nail polish"
-      ],
+      "tags": ["beauty", "nail polish"],
       "brand": "Nail Couture",
       "sku": "YUIIIP4W",
       "weight": 9,
@@ -309,10 +294,7 @@
       "discountPercentage": 0.32,
       "rating": 4.85,
       "stock": 17,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Calvin Klein",
       "sku": "DZM2JQZE",
       "weight": 5,
@@ -371,10 +353,7 @@
       "discountPercentage": 18.64,
       "rating": 2.76,
       "stock": 41,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Chanel",
       "sku": "K71HBCGS",
       "weight": 4,
@@ -433,10 +412,7 @@
       "discountPercentage": 17.44,
       "rating": 3.31,
       "stock": 91,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Dior",
       "sku": "E70NB03B",
       "weight": 10,
@@ -495,10 +471,7 @@
       "discountPercentage": 11.47,
       "rating": 2.68,
       "stock": 3,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Dolce & Gabbana",
       "sku": "1NBFK980",
       "weight": 5,
@@ -557,10 +530,7 @@
       "discountPercentage": 8.9,
       "rating": 2.69,
       "stock": 93,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Gucci",
       "sku": "FFKZ6HOF",
       "weight": 10,
@@ -619,10 +589,7 @@
       "discountPercentage": 0.29,
       "rating": 4.14,
       "stock": 47,
-      "tags": [
-        "furniture",
-        "beds"
-      ],
+      "tags": ["furniture", "beds"],
       "brand": "Annibale Colombo",
       "sku": "4KMDTZWF",
       "weight": 3,
@@ -681,10 +648,7 @@
       "discountPercentage": 18.54,
       "rating": 3.08,
       "stock": 16,
-      "tags": [
-        "furniture",
-        "sofas"
-      ],
+      "tags": ["furniture", "sofas"],
       "brand": "Annibale Colombo",
       "sku": "LUU95CQP",
       "weight": 3,
@@ -743,10 +707,7 @@
       "discountPercentage": 9.58,
       "rating": 4.48,
       "stock": 16,
-      "tags": [
-        "furniture",
-        "bedside tables"
-      ],
+      "tags": ["furniture", "bedside tables"],
       "brand": "Furniture Co.",
       "sku": "OWPLTZYX",
       "weight": 10,
@@ -805,10 +766,7 @@
       "discountPercentage": 15.23,
       "rating": 4.11,
       "stock": 47,
-      "tags": [
-        "furniture",
-        "office chairs"
-      ],
+      "tags": ["furniture", "office chairs"],
       "brand": "Knoll",
       "sku": "RKHVJ4FE",
       "weight": 3,
@@ -867,10 +825,7 @@
       "discountPercentage": 11.22,
       "rating": 3.26,
       "stock": 95,
-      "tags": [
-        "furniture",
-        "bathroom"
-      ],
+      "tags": ["furniture", "bathroom"],
       "brand": "Bath Trends",
       "sku": "7OLTIEVO",
       "weight": 6,
@@ -929,9 +884,7 @@
       "discountPercentage": 1.97,
       "rating": 2.96,
       "stock": 9,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "sku": "QTROUV79",
       "weight": 8,
       "dimensions": {
@@ -987,9 +940,7 @@
       "discountPercentage": 17.99,
       "rating": 2.83,
       "stock": 96,
-      "tags": [
-        "meat"
-      ],
+      "tags": ["meat"],
       "sku": "BWWA2MSO",
       "weight": 9,
       "dimensions": {
@@ -1045,10 +996,7 @@
       "discountPercentage": 9.57,
       "rating": 2.88,
       "stock": 13,
-      "tags": [
-        "pet supplies",
-        "cat food"
-      ],
+      "tags": ["pet supplies", "cat food"],
       "sku": "C3F8QN6O",
       "weight": 9,
       "dimensions": {
@@ -1104,9 +1052,7 @@
       "discountPercentage": 10.46,
       "rating": 4.61,
       "stock": 69,
-      "tags": [
-        "meat"
-      ],
+      "tags": ["meat"],
       "sku": "G5YEHW7B",
       "weight": 7,
       "dimensions": {
@@ -1163,9 +1109,7 @@
       "discountPercentage": 18.89,
       "rating": 4.01,
       "stock": 22,
-      "tags": [
-        "cooking essentials"
-      ],
+      "tags": ["cooking essentials"],
       "sku": "Q6ZP1UY8",
       "weight": 8,
       "dimensions": {
@@ -1221,9 +1165,7 @@
       "discountPercentage": 11.44,
       "rating": 4.71,
       "stock": 22,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "6KGF2K6Z",
       "weight": 9,
       "dimensions": {
@@ -1279,10 +1221,7 @@
       "discountPercentage": 18.15,
       "rating": 2.74,
       "stock": 40,
-      "tags": [
-        "pet supplies",
-        "dog food"
-      ],
+      "tags": ["pet supplies", "dog food"],
       "sku": "A6QRCH37",
       "weight": 2,
       "dimensions": {
@@ -1338,9 +1277,7 @@
       "discountPercentage": 5.8,
       "rating": 4.46,
       "stock": 10,
-      "tags": [
-        "dairy"
-      ],
+      "tags": ["dairy"],
       "sku": "YA617RI7",
       "weight": 4,
       "dimensions": {
@@ -1396,9 +1333,7 @@
       "discountPercentage": 7,
       "rating": 4.83,
       "stock": 99,
-      "tags": [
-        "seafood"
-      ],
+      "tags": ["seafood"],
       "sku": "XNIH1MTA",
       "weight": 8,
       "dimensions": {
@@ -1454,9 +1389,7 @@
       "discountPercentage": 15.5,
       "rating": 4.28,
       "stock": 89,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "HU7S7VQ0",
       "weight": 7,
       "dimensions": {
@@ -1512,9 +1445,7 @@
       "discountPercentage": 18.51,
       "rating": 4.43,
       "stock": 8,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "Y4RM3JCB",
       "weight": 2,
       "dimensions": {
@@ -1570,9 +1501,7 @@
       "discountPercentage": 1.91,
       "rating": 3.5,
       "stock": 25,
-      "tags": [
-        "condiments"
-      ],
+      "tags": ["condiments"],
       "sku": "BTBNIIOU",
       "weight": 9,
       "dimensions": {
@@ -1628,9 +1557,7 @@
       "discountPercentage": 7.58,
       "rating": 3.77,
       "stock": 76,
-      "tags": [
-        "desserts"
-      ],
+      "tags": ["desserts"],
       "sku": "VEZMU1EQ",
       "weight": 5,
       "dimensions": {
@@ -1689,9 +1616,7 @@
       "discountPercentage": 5.45,
       "rating": 3.41,
       "stock": 99,
-      "tags": [
-        "beverages"
-      ],
+      "tags": ["beverages"],
       "sku": "M2K19S06",
       "weight": 2,
       "dimensions": {
@@ -1747,9 +1672,7 @@
       "discountPercentage": 10.32,
       "rating": 4.37,
       "stock": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "sku": "0X3NORB9",
       "weight": 8,
       "dimensions": {
@@ -1805,10 +1728,7 @@
       "discountPercentage": 7.17,
       "rating": 4.94,
       "stock": 5,
-      "tags": [
-        "beauty",
-        "mascara"
-      ],
+      "tags": ["beauty", "mascara"],
       "brand": "Essence",
       "sku": "RCH45Q1A",
       "weight": 2,
@@ -1865,10 +1785,7 @@
       "discountPercentage": 5.5,
       "rating": 3.28,
       "stock": 44,
-      "tags": [
-        "beauty",
-        "eyeshadow"
-      ],
+      "tags": ["beauty", "eyeshadow"],
       "brand": "Glamour Beauty",
       "sku": "MVCFH27F",
       "weight": 3,
@@ -1925,10 +1842,7 @@
       "discountPercentage": 18.14,
       "rating": 3.82,
       "stock": 59,
-      "tags": [
-        "beauty",
-        "face powder"
-      ],
+      "tags": ["beauty", "face powder"],
       "brand": "Velvet Touch",
       "sku": "9EN8WLT2",
       "weight": 8,
@@ -1985,10 +1899,7 @@
       "discountPercentage": 19.03,
       "rating": 2.51,
       "stock": 68,
-      "tags": [
-        "beauty",
-        "lipstick"
-      ],
+      "tags": ["beauty", "lipstick"],
       "brand": "Chic Cosmetics",
       "sku": "O5IF1NTA",
       "weight": 5,
@@ -2045,10 +1956,7 @@
       "discountPercentage": 2.46,
       "rating": 3.91,
       "stock": 71,
-      "tags": [
-        "beauty",
-        "nail polish"
-      ],
+      "tags": ["beauty", "nail polish"],
       "brand": "Nail Couture",
       "sku": "YUIIIP4W",
       "weight": 9,
@@ -2105,10 +2013,7 @@
       "discountPercentage": 0.32,
       "rating": 4.85,
       "stock": 17,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Calvin Klein",
       "sku": "DZM2JQZE",
       "weight": 5,
@@ -2167,10 +2072,7 @@
       "discountPercentage": 18.64,
       "rating": 2.76,
       "stock": 41,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Chanel",
       "sku": "K71HBCGS",
       "weight": 4,
@@ -2229,10 +2131,7 @@
       "discountPercentage": 17.44,
       "rating": 3.31,
       "stock": 91,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Dior",
       "sku": "E70NB03B",
       "weight": 10,
@@ -2291,10 +2190,7 @@
       "discountPercentage": 11.47,
       "rating": 2.68,
       "stock": 3,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Dolce & Gabbana",
       "sku": "1NBFK980",
       "weight": 5,
@@ -2353,10 +2249,7 @@
       "discountPercentage": 8.9,
       "rating": 2.69,
       "stock": 93,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
+      "tags": ["fragrances", "perfumes"],
       "brand": "Gucci",
       "sku": "FFKZ6HOF",
       "weight": 10,
@@ -2415,10 +2308,7 @@
       "discountPercentage": 0.29,
       "rating": 4.14,
       "stock": 47,
-      "tags": [
-        "furniture",
-        "beds"
-      ],
+      "tags": ["furniture", "beds"],
       "brand": "Annibale Colombo",
       "sku": "4KMDTZWF",
       "weight": 3,
@@ -2477,10 +2367,7 @@
       "discountPercentage": 18.54,
       "rating": 3.08,
       "stock": 16,
-      "tags": [
-        "furniture",
-        "sofas"
-      ],
+      "tags": ["furniture", "sofas"],
       "brand": "Annibale Colombo",
       "sku": "LUU95CQP",
       "weight": 3,
@@ -2539,10 +2426,7 @@
       "discountPercentage": 9.58,
       "rating": 4.48,
       "stock": 16,
-      "tags": [
-        "furniture",
-        "bedside tables"
-      ],
+      "tags": ["furniture", "bedside tables"],
       "brand": "Furniture Co.",
       "sku": "OWPLTZYX",
       "weight": 10,
@@ -2601,10 +2485,7 @@
       "discountPercentage": 15.23,
       "rating": 4.11,
       "stock": 47,
-      "tags": [
-        "furniture",
-        "office chairs"
-      ],
+      "tags": ["furniture", "office chairs"],
       "brand": "Knoll",
       "sku": "RKHVJ4FE",
       "weight": 3,
@@ -2663,10 +2544,7 @@
       "discountPercentage": 11.22,
       "rating": 3.26,
       "stock": 95,
-      "tags": [
-        "furniture",
-        "bathroom"
-      ],
+      "tags": ["furniture", "bathroom"],
       "brand": "Bath Trends",
       "sku": "7OLTIEVO",
       "weight": 6,
@@ -2725,9 +2603,7 @@
       "discountPercentage": 1.97,
       "rating": 2.96,
       "stock": 9,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "sku": "QTROUV79",
       "weight": 8,
       "dimensions": {
@@ -2783,9 +2659,7 @@
       "discountPercentage": 17.99,
       "rating": 2.83,
       "stock": 96,
-      "tags": [
-        "meat"
-      ],
+      "tags": ["meat"],
       "sku": "BWWA2MSO",
       "weight": 9,
       "dimensions": {
@@ -2841,10 +2715,7 @@
       "discountPercentage": 9.57,
       "rating": 2.88,
       "stock": 13,
-      "tags": [
-        "pet supplies",
-        "cat food"
-      ],
+      "tags": ["pet supplies", "cat food"],
       "sku": "C3F8QN6O",
       "weight": 9,
       "dimensions": {
@@ -2900,9 +2771,7 @@
       "discountPercentage": 10.46,
       "rating": 4.61,
       "stock": 69,
-      "tags": [
-        "meat"
-      ],
+      "tags": ["meat"],
       "sku": "G5YEHW7B",
       "weight": 7,
       "dimensions": {
@@ -2959,9 +2828,7 @@
       "discountPercentage": 18.89,
       "rating": 4.01,
       "stock": 22,
-      "tags": [
-        "cooking essentials"
-      ],
+      "tags": ["cooking essentials"],
       "sku": "Q6ZP1UY8",
       "weight": 8,
       "dimensions": {
@@ -3017,9 +2884,7 @@
       "discountPercentage": 11.44,
       "rating": 4.71,
       "stock": 22,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "6KGF2K6Z",
       "weight": 9,
       "dimensions": {
@@ -3075,10 +2940,7 @@
       "discountPercentage": 18.15,
       "rating": 2.74,
       "stock": 40,
-      "tags": [
-        "pet supplies",
-        "dog food"
-      ],
+      "tags": ["pet supplies", "dog food"],
       "sku": "A6QRCH37",
       "weight": 2,
       "dimensions": {
@@ -3134,9 +2996,7 @@
       "discountPercentage": 5.8,
       "rating": 4.46,
       "stock": 10,
-      "tags": [
-        "dairy"
-      ],
+      "tags": ["dairy"],
       "sku": "YA617RI7",
       "weight": 4,
       "dimensions": {
@@ -3192,9 +3052,7 @@
       "discountPercentage": 7,
       "rating": 4.83,
       "stock": 99,
-      "tags": [
-        "seafood"
-      ],
+      "tags": ["seafood"],
       "sku": "XNIH1MTA",
       "weight": 8,
       "dimensions": {
@@ -3250,9 +3108,7 @@
       "discountPercentage": 15.5,
       "rating": 4.28,
       "stock": 89,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "HU7S7VQ0",
       "weight": 7,
       "dimensions": {
@@ -3308,9 +3164,7 @@
       "discountPercentage": 18.51,
       "rating": 4.43,
       "stock": 8,
-      "tags": [
-        "vegetables"
-      ],
+      "tags": ["vegetables"],
       "sku": "Y4RM3JCB",
       "weight": 2,
       "dimensions": {
@@ -3366,9 +3220,7 @@
       "discountPercentage": 1.91,
       "rating": 3.5,
       "stock": 25,
-      "tags": [
-        "condiments"
-      ],
+      "tags": ["condiments"],
       "sku": "BTBNIIOU",
       "weight": 9,
       "dimensions": {
@@ -3424,9 +3276,7 @@
       "discountPercentage": 7.58,
       "rating": 3.77,
       "stock": 76,
-      "tags": [
-        "desserts"
-      ],
+      "tags": ["desserts"],
       "sku": "VEZMU1EQ",
       "weight": 5,
       "dimensions": {
@@ -3485,9 +3335,7 @@
       "discountPercentage": 5.45,
       "rating": 3.41,
       "stock": 99,
-      "tags": [
-        "beverages"
-      ],
+      "tags": ["beverages"],
       "sku": "M2K19S06",
       "weight": 2,
       "dimensions": {
@@ -3543,9 +3391,7 @@
       "discountPercentage": 10.32,
       "rating": 4.37,
       "stock": 1,
-      "tags": [
-        "fruits"
-      ],
+      "tags": ["fruits"],
       "sku": "0X3NORB9",
       "weight": 8,
       "dimensions": {
@@ -3715,71 +3561,268 @@
     {
       "id": "dee8",
       "email": "user@gmail.com",
-      "password": "Qwerty123@"
+      "password": "Qwerty123@",
+      "addresses": [
+        {
+          "name": "Robin",
+          "email": "user@gmail.com",
+          "phone": "1234567890",
+          "street": "123kgf",
+          "city": "bum",
+          "state": "or",
+          "pinCode": "760058"
+        },
+        {
+          "name": "donee",
+          "email": "user@gmail.com",
+          "phone": "1234567890",
+          "street": "123kgf",
+          "city": "bum",
+          "state": "or",
+          "pinCode": "765842"
+        }
+      ]
     }
   ],
   "cart": [
     {
-      "id": "2",
-      "title": "Eyeshadow Palette with Mirror",
-      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+      "id": "44dc",
+      "title": "Essence Mascara Lash Princess",
+      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
-      "price": 19.99,
-      "discountPercentage": 5.5,
-      "rating": 3.28,
-      "stock": 44,
-      "tags": [
-        "beauty",
-        "eyeshadow"
-      ],
-      "brand": "Glamour Beauty",
-      "sku": "MVCFH27F",
-      "weight": 3,
+      "price": 9.99,
+      "discountPercentage": 7.17,
+      "rating": 4.94,
+      "stock": 5,
+      "tags": ["beauty", "mascara"],
+      "brand": "Essence",
+      "sku": "RCH45Q1A",
+      "weight": 2,
       "dimensions": {
-        "width": 12.42,
-        "height": 8.63,
-        "depth": 29.13
+        "width": 23.17,
+        "height": 14.43,
+        "depth": 28.01
       },
-      "warrantyInformation": "1 year warranty",
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 24,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "9164035109868",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+      "quantity": 1,
+      "user": "dee8"
+    },
+    {
+      "id": "f887",
+      "title": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+      "category": "beauty",
+      "price": 12.99,
+      "discountPercentage": 19.03,
+      "rating": 2.51,
+      "stock": 68,
+      "tags": ["beauty", "lipstick"],
+      "brand": "Chic Cosmetics",
+      "sku": "O5IF1NTA",
+      "weight": 5,
+      "dimensions": {
+        "width": 14.37,
+        "height": 13.94,
+        "depth": 14.6
+      },
+      "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 2 weeks",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 4,
-          "comment": "Very satisfied!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Liam Garcia",
-          "reviewerEmail": "liam.garcia@x.dummyjson.com"
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
         },
         {
-          "rating": 1,
-          "comment": "Very disappointed!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Nora Russell",
-          "reviewerEmail": "nora.russell@x.dummyjson.com"
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Oscar Powers",
+          "reviewerEmail": "oscar.powers@x.dummyjson.com"
         },
         {
           "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Elena Baker",
-          "reviewerEmail": "elena.baker@x.dummyjson.com"
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Carter Rivera",
+          "reviewerEmail": "carter.rivera@x.dummyjson.com"
         }
       ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 32,
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 6,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.618Z",
-        "updatedAt": "2024-05-23T08:56:21.618Z",
-        "barcode": "2817839095220",
+        "createdAt": "2024-05-23T08:56:21.619Z",
+        "updatedAt": "2024-05-23T08:56:21.619Z",
+        "barcode": "9444582199406",
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
-      "quantity": 3,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+      "quantity": 1,
+      "user": "dee8"
+    },
+    {
+      "id": "d099",
+      "title": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+      "category": "beauty",
+      "price": 12.99,
+      "discountPercentage": 19.03,
+      "rating": 2.51,
+      "stock": 68,
+      "tags": ["beauty", "lipstick"],
+      "brand": "Chic Cosmetics",
+      "sku": "O5IF1NTA",
+      "weight": 5,
+      "dimensions": {
+        "width": 14.37,
+        "height": 13.94,
+        "depth": 14.6
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Oscar Powers",
+          "reviewerEmail": "oscar.powers@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Carter Rivera",
+          "reviewerEmail": "carter.rivera@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 6,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.619Z",
+        "updatedAt": "2024-05-23T08:56:21.619Z",
+        "barcode": "9444582199406",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+      "quantity": 1,
+      "user": "dee8"
+    },
+    {
+      "id": "47f3",
+      "title": "Gucci Bloom Eau de",
+      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "category": "fragrances",
+      "price": 79.99,
+      "discountPercentage": 8.9,
+      "rating": 2.69,
+      "stock": 93,
+      "tags": ["fragrances", "perfumes"],
+      "brand": "Gucci",
+      "sku": "FFKZ6HOF",
+      "weight": 10,
+      "dimensions": {
+        "width": 22.28,
+        "height": 17.81,
+        "depth": 27.18
+      },
+      "warrantyInformation": "No warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great value for money!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Aria Parker",
+          "reviewerEmail": "aria.parker@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Natalie Harris",
+          "reviewerEmail": "natalie.harris@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Ava Harris",
+          "reviewerEmail": "ava.harris@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 10,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "8232190382069",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+      "quantity": 1,
       "user": "dee8"
     }
-  ]
+  ],
+  "orders": []
 }

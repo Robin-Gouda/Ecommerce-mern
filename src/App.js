@@ -71,7 +71,7 @@ const App = () => {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user?.id));
-      console.log(user);
+      // console.log(user);
     }
   }, [dispatch, user?.id]);
   return (
