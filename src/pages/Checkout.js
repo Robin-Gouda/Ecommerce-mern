@@ -9,18 +9,16 @@ import {
 import React from "react";
 import { Link, Navigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import {
-  selectLoggedInUser,
-  updateUserAsync,
-} from "../features/auth/authSlice";
+import { updateUserAsync } from "../features/auth/authSlice";
 import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/order/orderSlice";
+import { selectUserInfo } from "../features/user/userSlice";
 
 const Checkout = () => {
   const dispatch = useDispatch();
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
   const [open, setOpen] = useState(true);
   const items = useSelector(selectItem);
   const {
@@ -206,7 +204,7 @@ const Checkout = () => {
                             {...register("street", {
                               required: "street is required",
                             })}
-                            // id="street"
+                            id="street"
                             // autoComplete="street"
                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                           />

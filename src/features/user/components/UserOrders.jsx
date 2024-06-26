@@ -3,13 +3,13 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import {
   fetchLoggedInUserOrdersAsync,
+  selectUserInfo,
   selectUserOrders,
 } from "../userSlice.js";
-import { selectLoggedInUser } from "../../auth/authSlice.js";
 
 const UserOrders = () => {
   const dispatch = useDispatch();
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
   const orders = useSelector(selectUserOrders);
   // console.log(25);
 
