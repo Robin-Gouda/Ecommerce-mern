@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectUserInfo, updateUserAsync } from "../userSlice";
+import {
+  fetchLoggedInUserOrdersAsync,
+  selectUserInfo,
+  updateUserAsync,
+} from "../userSlice";
 import { useForm } from "react-hook-form";
 
 const UserProfile = () => {
@@ -263,8 +267,7 @@ const UserProfile = () => {
                 <form
                   className="bg-white py-12 px-5 mt-12"
                   noValidate
-                  onSubmit={handleSubmit((data, index) => {
-                    console.log(data);
+                  onSubmit={handleSubmit((data, e) => {
                     handleEdit(data, index);
                     // dispatch(
                     //   updateUserAsync({

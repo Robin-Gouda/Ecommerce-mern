@@ -3727,13 +3727,31 @@
           "street": "98 hifi"
         },
         {
-          "name": "Bipin",
+          "name": "Bipin Gouda",
           "email": "123@gmail.com",
-          "phone": "321987456",
-          "street": "98 hifi",
           "city": "book",
+          "pinCode": "789789",
           "state": "pindi",
-          "pinCode": "789789"
+          "phone": "321987456",
+          "street": "98 hifi"
+        },
+        {
+          "name": "Biplab",
+          "email": "123@gmail.com",
+          "city": "book",
+          "pinCode": "789789",
+          "state": "pindi",
+          "phone": "321987456",
+          "street": "98 hifi"
+        },
+        {
+          "name": "Robin",
+          "email": "5361@gmail.com",
+          "phone": "1234567890",
+          "street": "69 hifi",
+          "city": "Nagasaki",
+          "state": "dandi",
+          "pinCode": "100000"
         }
       ]
     }
