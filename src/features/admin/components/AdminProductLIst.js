@@ -6,7 +6,7 @@ import {
   fetchCategoriesAsync,
   fetchProductsByFiltersAsync,
   selectAllProducts,
-} from "../productSlice";
+} from "../../product/productSlice";
 import {
   Dialog,
   DialogPanel,
@@ -44,7 +44,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function ProductList() {
+export default function AdminProductList() {
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const products = useSelector((state) => state.product.products);
@@ -105,7 +105,6 @@ export default function ProductList() {
   useEffect(() => {
     const pagination = { _page: page, _per_page: ITEMS_PER_PAGE };
     dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
-    // TODO: server will filter deleted products
   }, [dispatch, filter, sort, page]);
 
   useEffect(() => {
@@ -223,6 +222,14 @@ export default function ProductList() {
                   ></DesktopFilter>
                   {/* Product grid */}
                   <div className="lg:col-span-3">
+                    <div>
+                      <Link
+                        to="/admin/product-form"
+                        className=" rounded-md text-sm font-semibold leading-6 px-3 py-2 my-5 mx-10  bg-green-600 text-white"
+                      >
+                        Add new Product
+                      </Link>
+                    </div>
                     <ProductGrid products={products}></ProductGrid>
                   </div>
                   {/* product grid end */}
@@ -515,51 +522,61 @@ function ProductGrid({ products }) {
         <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {products.map((product) => (
-              <Link to={`/productdetail/${product.id}`} key={product.id}>
-                <div className="group relative border-solid p-3 border-2 border-gray-200">
-                  <div className=" min-h-6 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
-                    <img
-                      src={product.thumbnail}
-                      alt={product.title}
-                      className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                    />
+              <div className="">
+                <Link to={`/productdetail/${product.id}`} key={product.id}>
+                  <div className="group relative border-solid p-3 border-2 border-gray-200">
+                    <div className=" min-h-6 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
+                      <img
+                        src={product.thumbnail}
+                        alt={product.title}
+                        className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                      />
+                    </div>
+                    <div className="mt-4 flex justify-between">
+                      <div>
+                        <h3 className="text-sm text-gray-700">
+                          <div href={product.thumbnail}>
+                            <span
+                              aria-hidden="true"
+                              className="absolute inset-0"
+                            />
+                            {product.title}
+                          </div>
+                        </h3>
+                        <p className="mt-1 text-sm text-gray-500">
+                          <StarIcon className="w-6 h-6 inline"></StarIcon>{" "}
+                          <span className="align-bottom">{product.rating}</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-sm font-medium text-gray-900">
+                          ${" "}
+                          {(
+                            product.price *
+                            (1 - product.discountPercentage / 100)
+                          ).toFixed(2)}
+                        </p>
+                        <p className="text-sm font-medium text-gray-400 line-through">
+                          $ {product.price}
+                        </p>
+                      </div>
+                    </div>
+                    {product.delete && (
+                      <div className="text-sm text-red-400">
+                        Product Deleted
+                      </div>
+                    )}
                   </div>
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="text-sm text-gray-700">
-                        <div href={product.thumbnail}>
-                          <span
-                            aria-hidden="true"
-                            className="absolute inset-0"
-                          />
-                          {product.title}
-                        </div>
-                      </h3>
-                      <p className="mt-1 text-sm text-gray-500">
-                        <StarIcon className="w-6 h-6 inline"></StarIcon>{" "}
-                        <span className="align-bottom">{product.rating}</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium text-gray-900">
-                        ${" "}
-                        {(
-                          product.price *
-                          (1 - product.discountPercentage / 100)
-                        ).toFixed(2)}
-                      </p>
-                      <p className="text-sm font-medium text-gray-400 line-through">
-                        $ {product.price}
-                      </p>
-                    </div>
-                  </div>
-                  {product.deleted && (
-                    <div>
-                      <p className="text-sm text-red-400">Product deleted</p>
-                    </div>
-                  )}
+                </Link>
+                <div className="my-5">
+                  <Link
+                    to={`/admin/product-form/edit/${product.id}`}
+                    className=" rounded-md text-sm font-semibold leading-6 px-3 py-2 mt-5  bg-indigo-600 text-white"
+                  >
+                    Edit Product
+                  </Link>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>

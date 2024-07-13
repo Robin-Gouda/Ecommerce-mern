@@ -2,12 +2,12 @@
   "products": [
     {
       "id": "1",
-      "title": "Essence Mascara Lash Princess",
+      "title": "Essence Mascara Lash",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
-      "price": 9.99,
-      "discountPercentage": 7.17,
-      "rating": 4.94,
+      "price": "25",
+      "discountPercentage": "20",
+      "rating": 0,
       "stock": 5,
       "tags": [
         "beauty",
@@ -56,7 +56,10 @@
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
@@ -65,9 +68,9 @@
       "title": "Eyeshadow Palette with Mirror",
       "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
       "category": "beauty",
-      "price": 19.99,
-      "discountPercentage": 5.5,
-      "rating": 3.28,
+      "price": "25",
+      "discountPercentage": "20",
+      "rating": 3.5,
       "stock": 44,
       "tags": [
         "beauty",
@@ -116,7 +119,10 @@
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
     },
@@ -125,9 +131,9 @@
       "title": "Powder Canister",
       "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
       "category": "beauty",
-      "price": 14.99,
-      "discountPercentage": 18.14,
-      "rating": 3.82,
+      "price": "25",
+      "discountPercentage": "16",
+      "rating": 4,
       "stock": 59,
       "tags": [
         "beauty",
@@ -176,7 +182,10 @@
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        null,
+        null,
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
     },
@@ -493,7 +502,7 @@
       "category": "fragrances",
       "price": 69.99,
       "discountPercentage": 11.47,
-      "rating": 2.68,
+      "rating": 3,
       "stock": 3,
       "tags": [
         "fragrances",
@@ -544,7 +553,8 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png"
     },
@@ -553,9 +563,9 @@
       "title": "Gucci Bloom Eau de",
       "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
       "category": "fragrances",
-      "price": 79.99,
-      "discountPercentage": 8.9,
-      "rating": 2.69,
+      "price": "400",
+      "discountPercentage": "9",
+      "rating": 2.8,
       "stock": 93,
       "tags": [
         "fragrances",
@@ -606,9 +616,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+      "delete": true
     },
     {
       "id": "11",
@@ -617,7 +629,7 @@
       "category": "furniture",
       "price": 1899.99,
       "discountPercentage": 0.29,
-      "rating": 4.14,
+      "rating": 4.3,
       "stock": 47,
       "tags": [
         "furniture",
@@ -668,18 +680,19 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png",
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"
     },
     {
       "id": "12",
-      "title": "Annibale Colombo Sofa",
-      "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+      "title": "Colombo Sofa",
+      "description": "The Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
       "category": "furniture",
       "price": 2499.99,
       "discountPercentage": 18.54,
-      "rating": 3.08,
+      "rating": 4,
       "stock": 16,
       "tags": [
         "furniture",
@@ -730,7 +743,8 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png",
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png"
     },
@@ -3535,62 +3549,22 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
     },
     {
-      "id": "60",
-      "title": "Kiwi",
-      "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
-      "category": "groceries",
-      "price": 2.49,
-      "discountPercentage": 10.32,
-      "rating": 4.37,
-      "stock": 1,
-      "tags": [
-        "fruits"
-      ],
-      "sku": "0X3NORB9",
-      "weight": 8,
-      "dimensions": {
-        "width": 27.3,
-        "height": 7.48,
-        "depth": 15.08
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "Low Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Nora Russell",
-          "reviewerEmail": "nora.russell@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Dylan Wells",
-          "reviewerEmail": "dylan.wells@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Noah Hernandez",
-          "reviewerEmail": "noah.hernandez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 8,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "3325493172934",
-        "qrCode": "https://dummyjson.com/public/qr-code.png"
-      },
+      "id": "da65",
+      "title": "Berhmapur Colombo Sofa",
+      "description": "The Berhmapur Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room",
+      "brand": "Na",
+      "categorie": "furniture",
+      "price": "299",
+      "discountPercentage": "5",
+      "stock": "148",
       "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png",
+        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+      "rating": 0
     }
   ],
   "category": [
@@ -3716,6 +3690,7 @@
       "id": "dee8",
       "email": "user@gmail.com",
       "password": "Qwerty123@",
+      "role": "admin",
       "addresses": [
         {
           "name": "Donee",
@@ -3727,16 +3702,7 @@
           "street": "98 hifi"
         },
         {
-          "name": "Bipin Gouda",
-          "email": "123@gmail.com",
-          "city": "book",
-          "pinCode": "789789",
-          "state": "pindi",
-          "phone": "321987456",
-          "street": "98 hifi"
-        },
-        {
-          "name": "Biplab",
+          "name": "Bipin ",
           "email": "123@gmail.com",
           "city": "book",
           "pinCode": "789789",
@@ -3754,6 +3720,13 @@
           "pinCode": "100000"
         }
       ]
+    },
+    {
+      "id": "8165",
+      "email": "bkl@gmail.com",
+      "password": "Qwerty123@",
+      "addresses": [],
+      "role": "user"
     }
   ],
   "cart": [],

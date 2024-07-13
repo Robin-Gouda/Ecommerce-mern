@@ -47,6 +47,8 @@ const Signup = () => {
                   email: data.email,
                   password: data.password,
                   addresses: [],
+                  role: "user",
+                  // TODO: this role can directly be given in backend
                 })
               );
               console.log(data);

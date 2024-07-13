@@ -64,6 +64,11 @@ const UserProfile = () => {
           <p className="text-xl my-5 font-bold tracking-tight text-red-500">
             Email address: {user?.email ? user?.email : "Guest User"}
           </p>
+          {user.role === "admin" && (
+            <p className="text-xl my-5 font-bold tracking-tight text-red-500">
+              Role: {user?.role ? user?.role : "User"}
+            </p>
+          )}
         </div>
 
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">

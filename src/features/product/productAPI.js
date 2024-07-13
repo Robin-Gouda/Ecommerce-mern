@@ -16,11 +16,41 @@ export function fetchProductById(id) {
   });
 }
 
+export function createProduct(product) {
+  return new Promise(async (resolve) => {
+    const response = await fetch("http://localhost:3002/products/", {
+      method: "POST",
+      body: JSON.stringify(product),
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+export function updateProduct(update) {
+  return new Promise(async (resolve) => {
+    console.log(update);
+    const response = await fetch(
+      "http://localhost:3002/products/" + update.id,
+      {
+        method: "PATCH",
+        body: JSON.stringify(update),
+        headers: { "content-type": "application/json" },
+      }
+    );
+    const data = await response.json();
+    //TODO: on server it will only return relevent information but bot the password
+    resolve({ data });
+  });
+}
+
 export function fetchProductsByFilters(filter, sort, pagination) {
-  // filter = {"category":["lipstick","fish",...]}
-  //sort = {_sort:"price" }
-  //pagination = {_page:1,_per_page:10}
-  //todo: on server we will support multi values in filter
+  // filter = {"category": ["lipstick","mascarra"]}
+  // sort = {_sort:"price",asce}
+  // Pagination = {_page:1,_limit=0}
+  // TODO : on server we will support multi values in filter
+  // TODO : Server will filter deleted Products in case of non-admin
   let queryString = "";
   for (let key in filter) {
     const categoryValues = filter[key];
@@ -39,13 +69,11 @@ export function fetchProductsByFilters(filter, sort, pagination) {
 
   return new Promise(async (resolve) => {
     //todo we will  not hard-code server value
+    console.log(queryString);
     const response = await fetch(
       "http://localhost:3002/products?" + queryString
     );
     const data = await response.json();
-    // console.log(await response);
-    // const totalItems = await response.headers.get("X-Total-Count");
-    // resolve({data:{products:data, totalItems:+totalItems}})
     resolve({ data });
   });
 }
