@@ -4,6 +4,9 @@
 
 This project is a full-stack E-Commerce web application designed to provide a comprehensive online shopping experience. The application includes a user-friendly interface for customers, a robust payment gateway, and a powerful admin dashboard for managing products, orders, and delivery status.
 
+![Home Page](https://github.com/user-attachments/assets/7edf6c9a-b08a-4abb-90c7-2fb593295edc)
+   Home Page of the Application
+
 ### Features
 
 - **Full Stack Implementation:** Built with a modern tech stack, this application provides a seamless integration between the front-end and back-end.
@@ -11,6 +14,12 @@ This project is a full-stack E-Commerce web application designed to provide a co
 - **Admin Dashboard:** Allows administrators to handle stock, manage orders, and track delivery status.
 - **Payment Gateway:** Integrated payment gateway for secure and reliable transactions.
 
+![Cart Page](https://github.com/user-attachments/assets/f0ae97c6-938c-46b3-8821-a3491679690a)
+   CART
+
+![image](https://github.com/user-attachments/assets/feb2e2d3-d034-4b72-8d6d-b193c81c9891)
+   Billing
+   
 ### Technologies Used
 
 - **Front-End:** React, Redux, Redux Thunk, HTML, CSS, JavaScript
