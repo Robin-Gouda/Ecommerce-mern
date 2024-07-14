@@ -1,72 +1,37 @@
-# Getting Started with Create React App
+## E-Commerce Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
 
-## Available Scripts
+This project is a full-stack E-Commerce web application designed to provide a comprehensive online shopping experience. The application includes a user-friendly interface for customers, a robust payment gateway, and a powerful admin dashboard for managing products, orders, and delivery status.
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+- **Full Stack Implementation:** Built with a modern tech stack, this application provides a seamless integration between the front-end and back-end.
+- **State Management:** Utilizes Redux for efficient state management and Thunk Middleware for asynchronous data fetching.
+- **Admin Dashboard:** Allows administrators to handle stock, manage orders, and track delivery status.
+- **Payment Gateway:** Integrated payment gateway for secure and reliable transactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Front-End:** React, Redux, Redux Thunk, HTML, CSS, JavaScript
+- **Back-End:** Node.js, Express.js
+- **Database:** MongoDB
+- **Payment Gateway:** Stripe
 
-### `npm test`
+### Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **User Interface:**
+   - User-friendly design for easy navigation and a seamless shopping experience.
+   - Product listing with detailed descriptions, images, and pricing.
+   - Shopping cart for adding and reviewing products before purchase.
 
-### `npm run build`
+2. **Admin Dashboard:**
+   - Manage product listings, including adding, updating, and deleting products.
+   - Handle stock levels and ensure product availability.
+   - View and manage customer orders, update order status, and track deliveries.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Payment Integration:**
+   - Secure payment gateway integration for processing payments.
+   - Support for multiple payment methods.
+   - Real-time payment status updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-the problem with && shortcircuiting is if value get converted to number it will always show the number even if it is zero so put > or < 0 condition
